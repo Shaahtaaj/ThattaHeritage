@@ -61,15 +61,15 @@ export default function Hero({ setActivePage }) {
             <div className="ajrak-pattern h-16 bg-indigoAjrak" />
             <div className="grid gap-4 bg-white/92 p-5 md:p-6">
               <SafeImage
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg"
+                src="/photos/makli.jpg"
                 alt="Makli Necropolis"
                 type="heritage"
                 className="h-72 w-full rounded-lg object-cover"
               />
               <div className="grid grid-cols-3 gap-3 text-center">
                 {[
-                  ['4+', 'ماڳ'],
-                  ['3', 'هنر'],
+                  ['17+', 'ماڳ'],
+                  ['6', 'هنر'],
                   ['لائيو', 'موسم'],
                 ].map(([value, label]) => (
                   <div key={label} className="rounded-lg bg-[#f4eadb] p-4">

@@ -51,6 +51,7 @@ Useful endpoints:
 - `POST /api/ask` with `{ "question": "مڪلي بابت ٻڌايو" }`
 - `POST /api/refresh/scrape`
 - `POST /api/refresh/environment` refreshes a chart-ready 7-day Open-Meteo weather/rainfall series, or a PMD row when `PMD_API_URL` is configured.
+- `python backend/cache_photos.py` downloads real Wikimedia/Wikipedia photos into `frontend/public/photos` for reliable local display.
 
 ## Frontend Setup
 
@@ -88,5 +89,5 @@ OPEN_METEO_URL=https://api.open-meteo.com/v1/forecast
 
 - Sindhi text is rendered RTL with Noto Nastaliq Urdu from Google Fonts.
 - The AI Q&A module is intentionally a local stub. It uses keyword matching today and can later be replaced with embeddings or an LLM.
-- Frontend images use stable Wikimedia `Special:FilePath` URLs plus a React fallback component, so broken remote images do not leave empty cards.
+- Frontend images use locally cached real photos from Wikimedia/Wikipedia under `frontend/public/photos`, plus a React fallback component, so the public website does not depend on hotlinked image availability at runtime.
 - All runtime data is persisted in `backend/thatta_portal.db`.

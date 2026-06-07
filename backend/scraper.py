@@ -23,25 +23,25 @@ class ScrapeTarget:
 
 
 HERITAGE_TARGETS = [
-    ScrapeTarget("Makli_Necropolis", "مڪلي جو قبرستان", "heritage", 24.7461, 67.9006, "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg", "https://whc.unesco.org/en/list/143/"),
-    ScrapeTarget("Shah_Jahan_Mosque,_Thatta", "شاھ جهان مسجد", "heritage", 24.7475, 67.9237, "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg/1200px-PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg"),
-    ScrapeTarget("Keenjhar_Lake", "ڪينجھر ڍنڍ", "heritage", 24.9519, 68.0361, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg"),
-    ScrapeTarget("Haleji_Lake", "هاليجي ڍنڍ", "heritage", 24.7909, 67.7703, "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Haleji_lake.jpg/1200px-Haleji_lake.jpg"),
-    ScrapeTarget("Banbhore", "ڀنڀور / ديبل", "heritage", 24.7557, 67.5208, "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg"),
-    ScrapeTarget("Kalan_Kot", "ڪلان ڪوٽ قلعو", "heritage", 24.7216, 67.9287, "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg"),
-    ScrapeTarget("Jam_Nizamuddin_II", "جام نظام الدين ثاني جو مقبرو", "heritage", 24.7373, 67.8998, "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Jam_Nizamuddin_II%27s_Tomb_outside.JPG/1200px-Jam_Nizamuddin_II%27s_Tomb_outside.JPG"),
-    ScrapeTarget("Keti_Bunder", "ڪيٽي بندر", "heritage", 24.1434, 67.4495, "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Indus_River_Delta.jpg/1200px-Indus_River_Delta.jpg"),
-    ScrapeTarget("Indus_River_Delta", "سنڌو ڊيلٽا", "heritage", 24.0500, 67.6667, "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Indus_River_Delta.jpg/1200px-Indus_River_Delta.jpg"),
-    ScrapeTarget("Gujo", "گجو شهر", "heritage", 24.74344, 67.76881, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg", "https://mapcarta.com/14701010"),
-    ScrapeTarget("Jhimpir", "جهمپير پٽي", "heritage", 25.0108, 68.1369, "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg"),
+    ScrapeTarget("Makli_Necropolis", "مڪلي جو قبرستان", "heritage", 24.7461, 67.9006, "/photos/makli.jpg", "https://whc.unesco.org/en/list/143/"),
+    ScrapeTarget("Shah_Jahan_Mosque,_Thatta", "شاھ جهان مسجد", "heritage", 24.7475, 67.9237, "/photos/shah-jahan-mosque.jpg"),
+    ScrapeTarget("Keenjhar_Lake", "ڪينجھر ڍنڍ", "heritage", 24.9519, 68.0361, "/photos/keenjhar-lake-real.jpg"),
+    ScrapeTarget("Haleji_Lake", "هاليجي ڍنڍ", "heritage", 24.7909, 67.7703, "/photos/haleji-lake-real.jpg"),
+    ScrapeTarget("Banbhore", "ڀنڀور / ديبل", "heritage", 24.7557, 67.5208, "/photos/banbhore.jpg"),
+    ScrapeTarget("Kalan_Kot", "ڪلان ڪوٽ قلعو", "heritage", 24.7216, 67.9287, "/photos/banbhore.jpg"),
+    ScrapeTarget("Jam_Nizamuddin_II", "جام نظام الدين ثاني جو مقبرو", "heritage", 24.7373, 67.8998, "/photos/makli.jpg"),
+    ScrapeTarget("Keti_Bunder", "ڪيٽي بندر", "heritage", 24.1434, 67.4495, "/photos/keenjhar-lake-real.jpg"),
+    ScrapeTarget("Indus_River_Delta", "سنڌو ڊيلٽا", "heritage", 24.0500, 67.6667, "/photos/haleji-lake-real.jpg"),
+    ScrapeTarget("Gujo", "گجو شهر", "heritage", 24.74344, 67.76881, "/photos/keenjhar-lake-real.jpg", "https://mapcarta.com/14701010"),
+    ScrapeTarget("Jhimpir", "جهمپير پٽي", "heritage", 25.0108, 68.1369, "/photos/keenjhar-lake-real.jpg"),
 ]
 
 CRAFT_TARGETS = [
-    ScrapeTarget("Ajrak", "اجرڪ", "crafts", image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ajrak_Chadar.jpg/1200px-Ajrak_Chadar.jpg"),
-    ScrapeTarget("Sindhi_cap", "سنڌي ٽوپي", "crafts", image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sindhi_Topi.jpg/1200px-Sindhi_Topi.jpg"),
-    ScrapeTarget("Sindhi_embroidery", "سنڌي ڀرت", "crafts", image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sindhi_traditional_women_embroidered_Gaj_tunics.jpg/1200px-Sindhi_traditional_women_embroidered_Gaj_tunics.jpg"),
-    ScrapeTarget("Ralli_quilt", "رلي", "crafts", image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg/1200px-Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg"),
-    ScrapeTarget("Woodblock_printing_on_textiles", "بلاڪ پرنٽنگ", "crafts", image_url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Block_printing.jpg/1200px-Block_printing.jpg"),
+    ScrapeTarget("Ajrak", "اجرڪ", "crafts", image_url="/photos/ajrak-chadar.jpg"),
+    ScrapeTarget("Sindhi_cap", "سنڌي ٽوپي", "crafts", image_url="/photos/sindhi-topi.jpg"),
+    ScrapeTarget("Sindhi_embroidery", "سنڌي ڀرت", "crafts", image_url="/photos/sindhi-embroidery.jpg"),
+    ScrapeTarget("Ralli_quilt", "رلي", "crafts", image_url="/photos/ralli-real.jpg"),
+    ScrapeTarget("Woodblock_printing_on_textiles", "بلاڪ پرنٽنگ", "crafts", image_url="/photos/ajrak-chadar.jpg"),
 ]
 
 PERSONALITY_TARGETS = [

@@ -1,6 +1,6 @@
 const FALLBACKS = {
-  heritage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg',
-  craft: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ajrak_Chadar.jpg/1200px-Ajrak_Chadar.jpg',
+  heritage: '/photos/shah-jahan-mosque.jpg',
+  craft: '/photos/ajrak-chadar.jpg',
 };
 
 export default function SafeImage({ src, alt, type = 'heritage', className = '' }) {

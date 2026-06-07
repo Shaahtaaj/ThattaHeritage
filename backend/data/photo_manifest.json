@@ -1,0 +1,27 @@
+{
+  "makli": {
+    "path": "/photos/makli.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Makli_Necropolis",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Nizam_al-Din_Tomb%2C_Makli_Hill%2C_Sindh..jpg/3840px-Nizam_al-Din_Tomb%2C_Makli_Hill%2C_Sindh..jpg"
+  },
+  "shah-jahan-mosque": {
+    "path": "/photos/shah-jahan-mosque.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Shah_Jahan_Mosque%2C_Thatta",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Shah_jahan_mosque_-Thatta_1_%28asad_aman%29.jpg"
+  },
+  "banbhore": {
+    "path": "/photos/banbhore.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Banbhore",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Banbhore_site.jpg"
+  },
+  "sindhi-topi": {
+    "path": "/photos/sindhi-topi.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Sindhi_cap",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Saraiki_Topi_%28Sindhi_Cap%29.jpg"
+  },
+  "sindhi-embroidery": {
+    "path": "/photos/sindhi-embroidery.jpg",
+    "source_url": "https://en.wikipedia.org/wiki/Sindhi_embroidery",
+    "image_source": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Sindhi_Gaj_Shirts.jpg"
+  }
+}
