@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'MB Sarem Iqra';
+  src: url('/mb-sarem-iqra.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MB Sarem Iqra';
+  src: url('/mb-sarem-iqra.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color: #18222a;
+  background: #f8f3ea;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  direction: rtl;
+  font-family: 'MB Sarem Iqra', 'Noto Nastaliq Urdu', serif;
+  background:
+    radial-gradient(circle at 12% 18%, rgba(29, 154, 162, 0.18), transparent 28%),
+    linear-gradient(135deg, #f8f3ea 0%, #f1dfc3 46%, #d7eced 100%);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.latin {
+  font-family: Inter, system-ui, sans-serif;
+}
+
+.ajrak-pattern {
+  background-image:
+    linear-gradient(45deg, rgba(255, 255, 255, 0.09) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(255, 255, 255, 0.09) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(255, 255, 255, 0.09) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(255, 255, 255, 0.09) 75%);
+  background-size: 22px 22px;
+  background-position: 0 0, 0 11px, 11px -11px, -11px 0;
+}
+
+.leaflet-container {
+  min-height: 380px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.leaflet-popup,
+.leaflet-popup *,
+.leaflet-popup-content-wrapper,
+.leaflet-popup-content,
+.leaflet-popup-tip,
+.sindhi-map-popup,
+.sindhi-map-popup * {
+  font-family: 'MB Sarem Iqra', 'Noto Nastaliq Urdu', serif !important;
+  font-synthesis: none;
+}
+
+.leaflet-popup-content,
+.sindhi-map-popup .leaflet-popup-content {
+  direction: rtl;
+  text-align: right;
+  min-width: 290px;
+  margin: 18px 20px;
+  font-size: 20px;
+  line-height: 2.35;
+  color: #18222a;
+}
+
+.leaflet-popup-content strong,
+.sindhi-map-popup strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.leaflet-popup-content p,
+.sindhi-map-popup p {
+  margin: 0;
+  font-weight: 400;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  left: 12px;
+  right: auto;
+  top: 10px;
+  width: 28px;
+  height: 28px;
+  color: #18222a;
+  font-family: Inter, system-ui, sans-serif !important;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.safe-image-shell {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(24, 34, 42, 0.08), rgba(29, 154, 162, 0.2)),
+    linear-gradient(45deg, #8b6746, #1f3d68);
+}
+
+.safe-image-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(246, 215, 177, 0.72), transparent 24%),
+    linear-gradient(160deg, transparent 42%, rgba(24, 34, 42, 0.34) 43%),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.12) 0 8px, transparent 8px 18px);
+}
+
+.safe-image-shell::after {
+  content: 'تصوير لوڊ ٿي رهي آهي';
+  position: absolute;
+  inset-inline: 18px;
+  bottom: 16px;
+  color: #fff;
+  font-family: 'MB Sarem Iqra', 'Noto Nastaliq Urdu', serif;
+  font-size: 18px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.36);
+}
+
+.safe-image-shell img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 220ms ease;
+}
+
+.safe-image-shell.is-loaded img {
+  opacity: 1;
+}
+
+.safe-image-shell.is-loaded::before,
+.safe-image-shell.is-loaded::after,
+.safe-image-shell.is-failed img {
+  display: none;
+}
+
+.pin-pulse {
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background: #c95b45;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 rgba(201, 91, 69, 0.45);
+  animation: pulse 1.7s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(201, 91, 69, 0.45);
+  }
+  70% {
+    box-shadow: 0 0 0 16px rgba(201, 91, 69, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(201, 91, 69, 0);
+  }
+}

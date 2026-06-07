@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Sindhi kashi tile illustration">
+  <defs>
+    <pattern id="tile" width="150" height="150" patternUnits="userSpaceOnUse">
+      <rect width="150" height="150" fill="#f4fbfb"/>
+      <path d="M75 8l67 67-67 67L8 75z" fill="#1d9aa2"/>
+      <path d="M75 32l43 43-43 43-43-43z" fill="#1f3d68"/>
+      <circle cx="75" cy="75" r="16" fill="#f4fbfb"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#tile)"/>
+  <path d="M0 0h1200v760H0z" fill="#1f3d68" opacity=".08"/>
+</svg>

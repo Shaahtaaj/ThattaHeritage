@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Ajrak pattern illustration">
+  <defs>
+    <pattern id="aj" width="120" height="120" patternUnits="userSpaceOnUse">
+      <rect width="120" height="120" fill="#1f3d68"/>
+      <path d="M60 10l50 50-50 50L10 60z" fill="#b73e32"/>
+      <path d="M60 24l36 36-36 36-36-36z" fill="#f3e5cc"/>
+      <circle cx="60" cy="60" r="17" fill="#1f3d68"/>
+      <circle cx="10" cy="10" r="9" fill="#f3e5cc"/><circle cx="110" cy="10" r="9" fill="#f3e5cc"/><circle cx="10" cy="110" r="9" fill="#f3e5cc"/><circle cx="110" cy="110" r="9" fill="#f3e5cc"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#aj)"/>
+  <path d="M0 0h1200v760H0z" fill="none" stroke="#f3e5cc" stroke-width="30"/>
+</svg>

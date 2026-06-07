@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Keenjhar and Haleji lake illustration">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#bfe8ed"/><stop offset="1" stop-color="#f8e3ba"/></linearGradient>
+    <linearGradient id="water" x1="0" x2="1"><stop stop-color="#1d9aa2"/><stop offset="1" stop-color="#1f3d68"/></linearGradient>
+  </defs>
+  <rect width="1200" height="760" fill="url(#sky)"/>
+  <path d="M0 420c150-65 285-72 438-30 174 48 334 54 562-24 95-33 159-39 200-22v416H0z" fill="url(#water)"/>
+  <path d="M0 504c199-34 296-19 448 14 185 41 336 30 552-37 92-28 152-32 200-18v297H0z" fill="#72c7c6" opacity=".36"/>
+  <path d="M212 512h238l-38 48H248z" fill="#6b3e2b"/><path d="M278 500c54-58 110-58 168 0" fill="none" stroke="#f4dfbd" stroke-width="13"/>
+  <path d="M764 242c34 65 74 101 120 109-49 13-96 5-139-24-36 30-77 44-123 40 48-23 85-62 112-117z" fill="#fff" opacity=".84"/>
+  <path d="M86 368c110-54 234-87 356-91 84-3 144 12 219 37-190 28-391 62-575 54z" fill="#8b9f6c"/>
+  <path d="M804 350c83-44 173-59 281-45 72 9 125 28 163 57-144-5-281 8-444-12z" fill="#7f9662"/>
+</svg>

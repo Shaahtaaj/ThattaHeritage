@@ -1,0 +1,291 @@
+{
+  "heritage": [
+    {
+      "id": 1,
+      "name_sindhi": "مڪلي جو قبرستان",
+      "description_sindhi": "مڪلي ٺٽي ڀرسان يونيسڪو عالمي ورثو آهي، جتي چوڏهين کان ارڙهين صدي تائين جا مقبرا، خطاطي، پٿر جي نقاشي ۽ سنڌ جي سما، ارغون، ترخان ۽ مغل دور جا نشان محفوظ آهن.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg",
+      "map_lat": 24.7461,
+      "map_lng": 67.9006,
+      "source_url": "https://whc.unesco.org/en/list/143/"
+    },
+    {
+      "id": 2,
+      "name_sindhi": "شاھ جهان مسجد",
+      "description_sindhi": "شاھ جهان مسجد ٺٽي جي مغل دور جي وڏي جامع مسجد آهي. نيري ڪاشي، ڳاڙهي سرن، محرابن ۽ گنبذن جي اهڙي ترتيب آهي جو آواز قدرتي نموني پوري مسجد ۾ گونجي ٿو.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg/1200px-PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg",
+      "map_lat": 24.7475,
+      "map_lng": 67.9237,
+      "source_url": "https://en.wikipedia.org/wiki/Shah_Jahan_Mosque,_Thatta"
+    },
+    {
+      "id": 3,
+      "name_sindhi": "ڪينجھر ڍنڍ",
+      "description_sindhi": "ڪينجھر ڍنڍ ٺٽي ضلعي ۾ پاڻي، سياحت ۽ لوڪ ڪهاڻي جو اهم ماڳ آهي. نوري ڄام تماچي جي روايت، ٻيڙيون، مڇي مارڻ ۽ پکين جا منظر هن ڍنڍ کي مقامي زندگي سان ڳنڍين ٿا.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg",
+      "map_lat": 24.9519,
+      "map_lng": 68.0361,
+      "source_url": "https://en.wikipedia.org/wiki/Keenjhar_Lake"
+    },
+    {
+      "id": 4,
+      "name_sindhi": "هاليجي ڍنڍ",
+      "description_sindhi": "هاليجي ڍنڍ جنگلي حيات ۽ آبي پکين لاءِ مشهور آهي. ٻي عالمي جنگ دوران پاڻي ذخيري طور ڪم آئي ۽ پوءِ مقامي ماحوليات، پکين ۽ ٻوٽن جي تحفظ لاءِ اهم علائقو بڻجي وئي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Haleji_lake.jpg/1200px-Haleji_lake.jpg",
+      "map_lat": 24.7909,
+      "map_lng": 67.7703,
+      "source_url": "https://en.wikipedia.org/wiki/Haleji_Lake"
+    },
+    {
+      "id": 5,
+      "name_sindhi": "ڀنڀور / ديبل",
+      "description_sindhi": "ڀنڀور قديم بندرگاهه ۽ آثار قديمه جو ماڳ آهي، جنهن کي ڪڏهن ديبل سان به ڳنڍيو ويندو آهي. هتي قلعي، شهر جي ڀتين، واپاري زندگي ۽ اٺين صدي جي مسجد جا آثار ملن ٿا.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg",
+      "map_lat": 24.7557,
+      "map_lng": 67.5208,
+      "source_url": "https://en.wikipedia.org/wiki/Banbhore"
+    },
+    {
+      "id": 6,
+      "name_sindhi": "ڀنڀور جي قديم مسجد",
+      "description_sindhi": "ڀنڀور جي مسجد جا آثار سنڌ ۾ ابتدائي اسلامي دور جي اهم نشانين مان ڳڻيا وڃن ٿا. ماڳ مقامي تاريخ، واپار ۽ سامونڊي رستن بابت سکيا لاءِ ڪارائتو آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Bhambore_First_Mosque_In_Sindh.JPG/1200px-Bhambore_First_Mosque_In_Sindh.JPG",
+      "map_lat": 24.7559,
+      "map_lng": 67.5212,
+      "source_url": "https://commons.wikimedia.org/wiki/Category:Grand_Mosque_(Banbhore)"
+    },
+    {
+      "id": 7,
+      "name_sindhi": "ڪلان ڪوٽ قلعو",
+      "description_sindhi": "ڪلان ڪوٽ ٺٽي ڀرسان پراڻو قلعو ۽ آثار قديمه جو ماڳ آهي. هن جا کنڊر سنڌ جي وچئين دور جي دفاعي اڏاوت، شهرن جي واڌ ۽ ٺٽي جي سياسي اهميت ڏيکارين ٿا.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg",
+      "map_lat": 24.7216,
+      "map_lng": 67.9287,
+      "source_url": "https://en.wikipedia.org/wiki/Kalan_Kot"
+    },
+    {
+      "id": 8,
+      "name_sindhi": "جام نظام الدين ثاني جو مقبرو",
+      "description_sindhi": "مڪلي ۾ جام نظام الدين ثاني جو مقبرو سما دور جي فن تعمير جو اهم نمونو آهي. پٿر تي گلڪاري، عربي خطاطي ۽ مقامي-گجراتي اثر هن عمارت کي خاص بڻائين ٿا.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Jam_Nizamuddin_II%27s_Tomb_outside.JPG/1200px-Jam_Nizamuddin_II%27s_Tomb_outside.JPG",
+      "map_lat": 24.7373,
+      "map_lng": 67.8998,
+      "source_url": "https://en.wikipedia.org/wiki/Jam_Nizamuddin_II"
+    },
+    {
+      "id": 9,
+      "name_sindhi": "مرزا عيسيٰ ترخان جو مقبرو",
+      "description_sindhi": "مرزا عيسيٰ ترخان جو مقبرو مڪلي جي ترخان دور واري حصي ۾ آهي. پٿر جي جالي، ڇتين ۽ قبرن جي ترتيب مان ٺٽي جي حڪمران خاندانن جي تاريخ پڙهي سگهجي ٿي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg",
+      "map_lat": 24.7468,
+      "map_lng": 67.9018,
+      "source_url": "https://commons.wikimedia.org/wiki/Historical_Monuments_at_Makli,_Thatta"
+    },
+    {
+      "id": 10,
+      "name_sindhi": "دبگير مسجد",
+      "description_sindhi": "دبگير مسجد ٺٽي جي پراڻي شهري ورثي جو حصو آهي. شاهجهاني مسجد کان گهٽ مشهور هجڻ باوجود، مقامي مذهبي ۽ شهري تاريخ کي سمجهڻ لاءِ اهم ماڳ آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg/1200px-PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg",
+      "map_lat": 24.7471,
+      "map_lng": 67.9248,
+      "source_url": "https://en.wikipedia.org/wiki/Thatta"
+    },
+    {
+      "id": 11,
+      "name_sindhi": "ڪيٽي بندر",
+      "description_sindhi": "ڪيٽي بندر ٺٽي ضلعي جو سامونڊي علائقو آهي، جتي سنڌو ڊيلٽا، مڇي مارڻ، مينگرووز ۽ سامونڊي تبديلي مقامي زندگي تي سڌو اثر وجهن ٿا.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Indus_River_Delta.jpg/1200px-Indus_River_Delta.jpg",
+      "map_lat": 24.1434,
+      "map_lng": 67.4495,
+      "source_url": "https://en.wikipedia.org/wiki/Keti_Bunder"
+    },
+    {
+      "id": 12,
+      "name_sindhi": "سنڌو ڊيلٽا",
+      "description_sindhi": "سنڌو ڊيلٽا ٺٽي ۽ ڪراچي جي سامونڊي پٽي سان لاڳاپيل نازڪ ماحولياتي علائقو آهي. مينگرووز، مڇي مارڻ، لوڻياٺ ۽ سمنڊ جي واڌ مقامي آبادي لاءِ وڏا مسئلا آهن.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Indus_River_Delta.jpg/1200px-Indus_River_Delta.jpg",
+      "map_lat": 24.0500,
+      "map_lng": 67.6667,
+      "source_url": "https://en.wikipedia.org/wiki/Indus_River_Delta"
+    },
+    {
+      "id": 13,
+      "name_sindhi": "گجو شهر",
+      "description_sindhi": "گجو ٺٽي ضلعي جو هڪ مقامي شهر/لڪيل اسٽاپ آهي، جيڪو ٺٽي ۽ ڀرپاسي جي ڳوٺن ڏانهن ويندڙ رستن سان ڳنڍيل آهي. مقامي سفر، صحت سهولتن ۽ ڳوٺاڻي زندگي کي سمجهڻ لاءِ هن نقطي کي پورٽل ۾ شامل ڪيو ويو آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg",
+      "map_lat": 24.74344,
+      "map_lng": 67.76881,
+      "source_url": "https://mapcarta.com/14701010"
+    },
+    {
+      "id": 14,
+      "name_sindhi": "گجو ديھ",
+      "description_sindhi": "گجو ديھ ٺٽي تعلقي جي زميني رڪارڊ ۽ مقامي آبادي سان لاڳاپيل علائقو آهي. مقامي ماڻهن لاءِ زمين، ڳوٺاڻي رستن ۽ انتظامي سڃاڻپ جي حوالي سان اهم آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg/1200px-PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg",
+      "map_lat": 24.74344,
+      "map_lng": 67.76881,
+      "source_url": "https://sindhzameen.gos.pk/demo_Registries/pdf/listofdeh.pdf"
+    },
+    {
+      "id": 15,
+      "name_sindhi": "گجو مقامي خدمتون",
+      "description_sindhi": "گجو ۾ مقامي صحت ۽ پوليس چيڪ پوسٽ جهڙا نقطا سفر ڪندڙن لاءِ ڪارائتا ٿي سگهن ٿا. پورٽل هن کي سياحتي ماڳ نه پر عملي مقامي ڄاڻ طور ڏيکاري ٿو.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg",
+      "map_lat": 24.74344,
+      "map_lng": 67.76881,
+      "source_url": "https://mapcarta.com/14701010"
+    },
+    {
+      "id": 16,
+      "name_sindhi": "جهمپير پٽي",
+      "description_sindhi": "جهمپير ۽ ڪينجھر واري پٽي ٺٽي جي پاڻي، جبلن، هوا ۽ ڳوٺاڻي رستن سان لاڳاپيل آهي. مقامي سياحت ۽ ماحولياتي مشاهدي لاءِ هن علائقي کي نقشي ۾ شامل ڪيو ويو آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg",
+      "map_lat": 25.0108,
+      "map_lng": 68.1369,
+      "source_url": "https://en.wikipedia.org/wiki/Jhimpir"
+    },
+    {
+      "id": 17,
+      "name_sindhi": "سونڊا",
+      "description_sindhi": "سونڊا ٺٽي ضلعي جي تاريخي ۽ مقامي آبادي وارو علائقو آهي، جيڪو رستن، ڳوٺن ۽ سنڌو درياهه جي ويجهڙائي سبب علائقائي سفر ۾ اهم جاءِ رکي ٿو.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg",
+      "map_lat": 25.0210,
+      "map_lng": 68.2700,
+      "source_url": "https://en.wikipedia.org/wiki/Thatta_District"
+    }
+  ],
+  "crafts": [
+    {
+      "id": 1,
+      "name_sindhi": "اجرڪ",
+      "description_sindhi": "اجرڪ سنڌ جي سڃاڻپ آهي. ڪاٺ جي بلاڪن، قدرتي رنگن، نيري-ڳاڙهي ترتيب ۽ ڪيترن مرحلن واري ڌلائي سان هي ڪپڙو مقامي ثقافت ۽ روزگار سان ڳنڍيل آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ajrak_Chadar.jpg/1200px-Ajrak_Chadar.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Ajrak"
+    },
+    {
+      "id": 2,
+      "name_sindhi": "سنڌي ٽوپي",
+      "description_sindhi": "سنڌي ٽوپي مهمان نوازي، عزت ۽ ثقافتي ڏينهنن جي علامت آهي. ان تي ڪڙهائي، آئينن ۽ رنگين ڌاڳن سان هٿ جو ڪم ڪيو ويندو آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sindhi_Topi.jpg/1200px-Sindhi_Topi.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Sindhi_cap"
+    },
+    {
+      "id": 3,
+      "name_sindhi": "سنڌي ڀرت",
+      "description_sindhi": "سنڌي ڀرت ۾ آئينن جو ڪم، روشن رنگ، گلڪاري ۽ هٿ جي نفيس سلائي شامل آهي. هي هنر عورتن جي گهريلو معيشت ۽ مقامي ڪپڙن سان گهڻو لاڳاپيل آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sindhi_traditional_women_embroidered_Gaj_tunics.jpg/1200px-Sindhi_traditional_women_embroidered_Gaj_tunics.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Sindhi_embroidery"
+    },
+    {
+      "id": 4,
+      "name_sindhi": "ڪاشي ۽ نيري ٽائل جو ڪم",
+      "description_sindhi": "ٺٽي ۽ هالا جي ڪاشي روايت ۾ نيرو، فيروزي ۽ اڇو رنگ گهڻو ملي ٿو. شاھ جهان مسجد جي ٽائل ڪاري هن هنر کي سياحت ۽ عمارتن سان ڳنڍي ٿي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Shah_Jahan_Mosque_columns,_Thatta.jpg/1200px-Shah_Jahan_Mosque_columns,_Thatta.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shah_Jahan_Mosque_columns,_Thatta.jpg"
+    },
+    {
+      "id": 5,
+      "name_sindhi": "رلي",
+      "description_sindhi": "رلي سنڌي گهرن جو رنگين هٿ جو ڪم آهي، جنهن ۾ پراڻن يا نون ڪپڙن جا ٽڪرا جوڙي چادر، بستري يا سينگار لاءِ ڪپڙو ٺاهيو ويندو آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg/1200px-Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Ralli_quilt"
+    },
+    {
+      "id": 6,
+      "name_sindhi": "بلاڪ پرنٽنگ",
+      "description_sindhi": "سنڌي بلاڪ پرنٽنگ ۾ ڪاٺي بلاڪ، رنگ جا حوض، ڌوپ ۾ سڪائڻ ۽ ورجائيندڙ هندسي نمونا شامل آهن. اجرڪ هن هنر جو سڀ کان مشهور روپ آهي.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Block_printing.jpg/1200px-Block_printing.jpg",
+      "source_url": "https://en.wikipedia.org/wiki/Woodblock_printing_on_textiles"
+    }
+  ],
+  "environment": [
+    {
+      "timestamp": "2026-06-07T09:00:00+05:00",
+      "temperature": 35.1,
+      "humidity": 58,
+      "rainfall": 0.0,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-06T09:00:00+05:00",
+      "temperature": 34.7,
+      "humidity": 61,
+      "rainfall": 0.2,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-05T09:00:00+05:00",
+      "temperature": 33.9,
+      "humidity": 64,
+      "rainfall": 1.1,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-04T09:00:00+05:00",
+      "temperature": 36.2,
+      "humidity": 52,
+      "rainfall": 0.0,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-03T09:00:00+05:00",
+      "temperature": 35.8,
+      "humidity": 55,
+      "rainfall": 0.0,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-02T09:00:00+05:00",
+      "temperature": 34.3,
+      "humidity": 60,
+      "rainfall": 0.5,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    },
+    {
+      "timestamp": "2026-06-01T09:00:00+05:00",
+      "temperature": 33.5,
+      "humidity": 63,
+      "rainfall": 2.4,
+      "lake_level": null,
+      "source_url": "https://open-meteo.com/"
+    }
+  ],
+  "personalities": [
+    {
+      "id": 1,
+      "name_sindhi": "جام نظام الدين ثاني",
+      "description_sindhi": "سما دور جو مشهور حاڪم، جنهن جي دور ۾ ٺٽو علم، واپار، فن تعمير ۽ سنڌي سياسي تاريخ جو اهم مرڪز بڻيو.",
+      "source_url": "https://en.wikipedia.org/wiki/Jam_Nizamuddin_II"
+    },
+    {
+      "id": 2,
+      "name_sindhi": "دريا خان",
+      "description_sindhi": "سما دور جو بهادر سپهه سالار، جنهن سنڌ جي دفاع ۾ اهم ڪردار ادا ڪيو. مڪلي ۾ دريا خان سان لاڳاپيل تاريخي نشان موجود آهن.",
+      "source_url": "https://en.wikipedia.org/wiki/Darya_Khan"
+    },
+    {
+      "id": 3,
+      "name_sindhi": "مرزا عيسيٰ ترخان",
+      "description_sindhi": "ترخان خاندان سان لاڳاپيل حڪمران، جنهن جي دور جا سياسي ۽ تعميراتي نشان ٺٽي ۽ مڪلي جي تاريخ ۾ ملن ٿا.",
+      "source_url": "https://en.wikipedia.org/wiki/Mirza_Isa_Tarkhan"
+    },
+    {
+      "id": 4,
+      "name_sindhi": "مرزا جاني بيگ",
+      "description_sindhi": "ٺٽي جي ترخان دور جو حڪمران، جنهن جي سياسي زندگي مغل سلطنت ۽ سنڌ جي حڪمراني سان ڳنڍيل هئي.",
+      "source_url": "https://en.wikipedia.org/wiki/Mirza_Jani_Beg"
+    },
+    {
+      "id": 5,
+      "name_sindhi": "نوري ڄام تماچي",
+      "description_sindhi": "نوري ۽ ڄام تماچي جي لوڪ ڪهاڻي ڪينجھر ڍنڍ، سما دور ۽ سنڌي شاعري ۾ محبت، عاجزي ۽ مقامي زندگي جي علامت آهي.",
+      "source_url": "https://en.wikipedia.org/wiki/Noori_Jam_Tamachi"
+    }
+  ]
+}

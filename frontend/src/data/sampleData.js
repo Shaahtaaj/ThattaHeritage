@@ -1,0 +1,103 @@
+const sampleData = {
+  heritage: [
+    {
+      id: 1,
+      name_sindhi: 'مڪلي جو قبرستان',
+      description_sindhi: 'مڪلي يونيسڪو عالمي ورثو آهي، جتي چوڏهين کان ارڙهين صدي جا مقبرا، خطاطي ۽ پٿر جي نقاشي محفوظ آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg/1200px-PK_Thatta_asv2020-02_img24_Makli_Necropolis.jpg',
+      map_lat: 24.7461,
+      map_lng: 67.9006,
+    },
+    {
+      id: 2,
+      name_sindhi: 'شاھ جهان مسجد',
+      description_sindhi: 'ٺٽي جي مغل دور واري جامع مسجد نيري ڪاشي، سرن، محرابن ۽ گنبذن جي آواز واري بناوت لاءِ مشهور آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg/1200px-PK_Thatta_asv2020-02_img08_Shah_Jahan_Mosque.jpg',
+      map_lat: 24.7475,
+      map_lng: 67.9237,
+    },
+    {
+      id: 3,
+      name_sindhi: 'ڪينجھر ڍنڍ',
+      description_sindhi: 'ڪينجھر ڍنڍ نوري ڄام تماچي جي ڪهاڻي، ٻيڙين، پکين ۽ مڇي مارڻ سان ٺٽي جي مقامي زندگي جو حصو آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg',
+      map_lat: 24.9519,
+      map_lng: 68.0361,
+    },
+    {
+      id: 4,
+      name_sindhi: 'هاليجي ڍنڍ',
+      description_sindhi: 'هاليجي ڍنڍ آبي پکين، ٻوٽن ۽ جنگلي حيات لاءِ اهم ماحولياتي ماڳ آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Haleji_lake.jpg/1200px-Haleji_lake.jpg',
+      map_lat: 24.7909,
+      map_lng: 67.7703,
+    },
+    {
+      id: 5,
+      name_sindhi: 'ڀنڀور / ديبل',
+      description_sindhi: 'ڀنڀور قديم بندرگاهه ۽ آثار قديمه جو ماڳ آهي، جتي قلعي، شهر ۽ پراڻي مسجد جا نشان ملن ٿا.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/The_ruins_of_the_city_-_Port_of_Banbhore.jpg/1200px-The_ruins_of_the_city_-_Port_of_Banbhore.jpg',
+      map_lat: 24.7557,
+      map_lng: 67.5208,
+    },
+    {
+      id: 6,
+      name_sindhi: 'جام نظام الدين ثاني جو مقبرو',
+      description_sindhi: 'سما دور جي هن مقبري ۾ پٿر جي گلڪاري، خطاطي ۽ مڪلي جي مقامي-گجراتي تعميراتي اثر ڏسجن ٿا.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Jam_Nizamuddin_II%27s_Tomb_outside.JPG/1200px-Jam_Nizamuddin_II%27s_Tomb_outside.JPG',
+      map_lat: 24.7373,
+      map_lng: 67.8998,
+    },
+    {
+      id: 7,
+      name_sindhi: 'گجو شهر',
+      description_sindhi: 'گجو ٺٽي ضلعي جو مقامي شهر آهي، جيڪو ڳوٺاڻي رستن، خدمتن ۽ مقامي زندگي جي حوالي سان اهم آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg/1200px-PK_Keenjhar_Lake_near_Thatta_asv2020-02_img4.jpg',
+      map_lat: 24.74344,
+      map_lng: 67.76881,
+    },
+  ],
+  crafts: [
+    {
+      id: 1,
+      name_sindhi: 'اجرڪ',
+      description_sindhi: 'ڪاٺ جي بلاڪن، نيري-ڳاڙهي رنگ ۽ ڪيترن مرحلن واري ڌلائي سان ٺهندڙ سنڌي ثقافت جو نمايان ڪپڙو.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Ajrak_Chadar.jpg/1200px-Ajrak_Chadar.jpg',
+    },
+    {
+      id: 2,
+      name_sindhi: 'سنڌي ٽوپي',
+      description_sindhi: 'ڪڙهائي، آئينن ۽ رنگين ڌاڳن سان ٺهندڙ عزت، مهمان نوازي ۽ ثقافتي سڃاڻپ جي علامت.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sindhi_Topi.jpg/1200px-Sindhi_Topi.jpg',
+    },
+    {
+      id: 3,
+      name_sindhi: 'سنڌي ڀرت',
+      description_sindhi: 'آئينن جو ڪم، روشن رنگ ۽ هٿ جي نفيس سلائي، جيڪا مقامي لباس ۽ عورتن جي هنر سان ڳنڍيل آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sindhi_traditional_women_embroidered_Gaj_tunics.jpg/1200px-Sindhi_traditional_women_embroidered_Gaj_tunics.jpg',
+    },
+    {
+      id: 4,
+      name_sindhi: 'ڪاشي ۽ نيري ٽائل جو ڪم',
+      description_sindhi: 'شاھ جهان مسجد جهڙن ماڳن ۾ نظر ايندڙ نيرو، فيروزي ۽ اڇو ٽائل ڪم سنڌي عمارت سازي جو اهم حصو آهي.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Shah_Jahan_Mosque_columns,_Thatta.jpg/1200px-Shah_Jahan_Mosque_columns,_Thatta.jpg',
+    },
+    {
+      id: 5,
+      name_sindhi: 'رلي',
+      description_sindhi: 'رنگين ڪپڙن جا ٽڪرا جوڙي چادر، بستري يا گهر جي سينگار لاءِ ٺهندڙ سنڌي هٿ جو ڪم.',
+      image_url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg/1200px-Ralli_is_a_Sindhi_Pakistani_quilt.2.jpg',
+    },
+  ],
+  environment: [
+    { timestamp: '2026-06-07T09:00:00+05:00', temperature: 35.1, humidity: 58, rainfall: 0.0, lake_level: null },
+    { timestamp: '2026-06-06T09:00:00+05:00', temperature: 34.7, humidity: 61, rainfall: 0.2, lake_level: null },
+    { timestamp: '2026-06-05T09:00:00+05:00', temperature: 33.9, humidity: 64, rainfall: 1.1, lake_level: null },
+    { timestamp: '2026-06-04T09:00:00+05:00', temperature: 36.2, humidity: 52, rainfall: 0.0, lake_level: null },
+    { timestamp: '2026-06-03T09:00:00+05:00', temperature: 35.8, humidity: 55, rainfall: 0.0, lake_level: null },
+    { timestamp: '2026-06-02T09:00:00+05:00', temperature: 34.3, humidity: 60, rainfall: 0.5, lake_level: null },
+    { timestamp: '2026-06-01T09:00:00+05:00', temperature: 33.5, humidity: 63, rainfall: 2.4, lake_level: null },
+  ],
+};
+
+export default sampleData;

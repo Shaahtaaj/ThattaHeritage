@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Indus delta illustration">
+  <rect width="1200" height="760" fill="#1f3d68"/>
+  <path d="M0 140c240 84 393 130 578 106 162-20 298-87 422-67 78 12 146 48 200 89v492H0z" fill="#1d9aa2"/>
+  <path d="M142 116c154 109 261 197 321 308 52 96 60 178 58 276" fill="none" stroke="#d9c38d" stroke-width="40" stroke-linecap="round"/>
+  <path d="M522 424c94 2 195-27 302-87M531 512c124 36 259 46 406 30M491 376c-68 30-126 78-174 144" fill="none" stroke="#d9c38d" stroke-width="26" stroke-linecap="round"/>
+  <path d="M692 216c96 46 174 46 260 0-54 73-126 115-216 127-73-21-126-57-156-108z" fill="#567b42"/>
+  <path d="M100 626c140-32 260-24 360 24 145 70 290 62 466-12 76-32 142-44 198-36v158H100z" fill="#f2d4a7" opacity=".45"/>
+</svg>

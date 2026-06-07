@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Banbhore ruins illustration">
+  <defs>
+    <linearGradient id="sand" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f2d4a7"/><stop offset="1" stop-color="#c9955b"/></linearGradient>
+    <pattern id="brick" width="68" height="38" patternUnits="userSpaceOnUse"><path d="M0 0h68v38H0z" fill="none" stroke="#7a4d32" stroke-width="3" opacity=".25"/><path d="M34 0v38" stroke="#7a4d32" stroke-width="2" opacity=".2"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="#cce3df"/>
+  <path d="M0 472c262-93 498-95 745-30 102 27 192 37 455 4v314H0z" fill="url(#sand)"/>
+  <rect x="130" y="390" width="840" height="260" fill="#99633f"/><rect x="130" y="390" width="840" height="260" fill="url(#brick)"/>
+  <path d="M160 390h160v-84h130v84h170v-112h140v112h180v-72h120v72" fill="#8b5738"/>
+  <path d="M454 650V510c0-54 42-98 94-98s94 44 94 98v140z" fill="#4b3329"/>
+  <path d="M740 650V540c0-44 32-78 72-78s72 34 72 78v110z" fill="#4b3329"/>
+  <circle cx="996" cy="172" r="78" fill="#f0b65f" opacity=".8"/>
+</svg>

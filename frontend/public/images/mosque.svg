@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-label="Shah Jahan Mosque illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#d9f0ef"/><stop offset="1" stop-color="#f6d7b1"/></linearGradient>
+    <pattern id="tile" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M22 4l18 18-18 18L4 22z" fill="#1f79a2" opacity=".55"/><circle cx="22" cy="22" r="6" fill="#f4fbfb"/></pattern>
+  </defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="144" y="360" width="912" height="330" rx="6" fill="#b96843"/>
+  <rect x="188" y="398" width="824" height="250" fill="url(#tile)" opacity=".9"/>
+  <path d="M260 690V500c0-68 50-122 112-122s112 54 112 122v190z" fill="#183f5b"/>
+  <path d="M516 690V458c0-88 66-158 148-158s148 70 148 158v232z" fill="#15364f"/>
+  <path d="M844 690V500c0-68 50-122 112-122s112 54 112 122v190z" fill="#183f5b"/>
+  <path d="M432 360c0-93 75-168 168-168s168 75 168 168" fill="#d7b37f"/>
+  <path d="M220 360c0-57 46-103 103-103s103 46 103 103" fill="#d7b37f"/>
+  <path d="M774 360c0-57 46-103 103-103s103 46 103 103" fill="#d7b37f"/>
+  <rect x="130" y="690" width="940" height="42" fill="#694733"/>
+</svg>
